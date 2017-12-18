@@ -1,0 +1,41 @@
+body{
+    color: rgb(115, 115, 238);
+    background: rgb(240, 239, 239);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-family: verdana;
+    margin: 20px;
+    text-align: center;
+}
+
+h3{
+    border: 1px solid lightblue;
+    margin: 0;
+    padding: 15px 0 15px 15px;
+    font-size: 1.4em;
+    font-weight: 300;
+    background-color: white;
+}
+
+input{
+    width: 320px;
+    border: none;
+    margin-left: 40px;
+    background: inherit;
+    border-bottom: 1px solid grey;
+    color: rgb(115, 115, 238);
+}
+
+ul{
+    width: 320px;
+}
+
+li{
+    list-style-type: none;
+    padding: 7px 0 2px 20px;
+    border: 1px solid lightblue;
+    font-weight: 700;
+    font-size: .7em;
+}

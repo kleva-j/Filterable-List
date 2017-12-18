@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Filterable list</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style2.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="container">
+            <h1 class="center-align">My Contact</h1>
+            <input type="text" id="input" placeholder="Search here...">
+            <ul class="header">
+                <h3>A</h3>
+                <li class="items">Adam</li>
+                <li class="items">Ade</li>
+                <li class="items">Andrew</li>
+                <li class="items">Anita</li>
+                <li class="items">Anna</li>
+            </ul>
+            <ul class="header">
+                <h3>B</h3>
+                <li class="items">Babel</li>
+                <li class="items">Barry</li>
+                <li class="items">Berry</li>
+                <li class="items">Beth</li>
+                <li class="items">Brisket</li>
+            </ul>
+            <ul class="header">
+                <h3>C</h3>
+                <li class="items">Cally</li>
+                <li class="items">Carrie</li>
+                <li class="items">Carro</li>
+                <li class="items">Carrot</li>
+                <li class="items">Courtney</li>
+            </ul>
+        </div>
+        <script>
+
+
+            let searchList = document.querySelectorAll('.items');
+            input.addEventListener('keydown', (str) => {
+                console.log(input.value)
+                searchList.forEach(item => {
+                    if(item.textContent.toLowerCase()
+                    .indexOf(input.value) !== -1) {
+
+                    }
+
+                })
+            })
+
+
+        </script>
+    </body>
+</html>
