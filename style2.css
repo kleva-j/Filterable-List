@@ -24,6 +24,7 @@ input{
     border: none;
     margin-left: 40px;
     background: inherit;
+    background-color: transparent;
     border-bottom: 1px solid grey;
     color: rgb(115, 115, 238);
 }

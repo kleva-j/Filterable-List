@@ -40,17 +40,19 @@
 
 
             let searchList = document.querySelectorAll('.items');
-            input.addEventListener('keydown', (str) => {
+            input.addEventListener('keyup', (str) => {
                 console.log(input.value)
                 searchList.forEach(item => {
                     if(item.textContent.toLowerCase()
                     .indexOf(input.value) !== -1) {
-
+                        item.style.display = '';
+                    }
+                    else {
+                        item.style.display = 'none'
                     }
 
                 })
             })
-
 
         </script>
     </body>
