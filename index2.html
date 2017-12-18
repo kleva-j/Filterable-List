@@ -15,6 +15,7 @@
                 <h3>A</h3>
                 <li class="items">Adam</li>
                 <li class="items">Ade</li>
+                <li class="items">Aed</li>
                 <li class="items">Andrew</li>
                 <li class="items">Anita</li>
                 <li class="items">Anna</li>
@@ -44,7 +45,7 @@
                 console.log(input.value)
                 searchList.forEach(item => {
                     if(item.textContent.toLowerCase()
-                    .indexOf(input.value) !== -1) {
+                    .indexOf(input.value.trim()) !== -1) {
                         item.style.display = '';
                     }
                     else {
