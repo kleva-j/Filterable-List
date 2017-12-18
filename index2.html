@@ -41,7 +41,7 @@
 
 
             let searchList = document.querySelectorAll('.items');
-            input.addEventListener('keyup', (str) => {
+            input.addEventListener('keyup', () => {
                 console.log(input.value)
                 searchList.forEach(item => {
                     if(item.textContent.toLowerCase()
@@ -49,7 +49,7 @@
                         item.style.display = '';
                     }
                     else {
-                        item.style.display = 'none'
+                        item.style.display = 'none';
                     }
 
                 })
